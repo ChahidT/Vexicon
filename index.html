@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vexicon</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">Vexicon</a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <img src="https://i.postimg.cc/rmWMdVY1/Untitled560-20250525203933.png" alt="Vexicon Logo" class="logoimagehome" />
+    <h1 class="slogan">Vexicon — Your Way for Company Branding</h1>
+    <div class="getstarted"><a href="#">Get Started</a></div>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>© 2025 — <strong>Vexicon</strong></p>
+        </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const menu = document.querySelector('.menu');
+
+      hamburger.addEventListener('click', () => {
+        menu.classList.toggle('active');
+      });
+    </script>
+</body>
+</html>
